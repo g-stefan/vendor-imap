@@ -1,0 +1,1 @@
+imap-2007f,https://www.mirrorservice.org/sites/ftp.cac.washington.edu/imap/
