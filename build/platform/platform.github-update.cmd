@@ -5,8 +5,9 @@ rem Created by Grigore Stefan <g_stefan@yahoo.com>
 
 SETLOCAL ENABLEDELAYEDEXPANSION
 
-echo -^> github-release-check vendor-imap
+echo - %BUILD_PROJECT% ^> platform github-update
 
-set GITHUB_PROJECT=vendor-%PROJECT%
-
-github-release info --repo %GITHUB_PROJECT% --tag v%VERSION%
+git fetch --prune --prune-tags
+git add --all
+git commit -m "Update"
+git push
