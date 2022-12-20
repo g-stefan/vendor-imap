@@ -1,0 +1,9 @@
+{
+	"project": {
+		"name" : "imap",
+		"type" : "xyo-cpp",
+		"SPDX-License-Identifier": "LicenseRef-",
+		"sourceLink" : "https://www.mirrorservice.org/sites/ftp.cac.washington.edu/imap/",
+		"version" : "2007f"
+	}
+}
