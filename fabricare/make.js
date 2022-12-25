@@ -22,8 +22,8 @@ Shell.mkdirRecursivelyIfNotExists("output/include");
 Shell.mkdirRecursivelyIfNotExists("output/lib");
 Shell.mkdirRecursivelyIfNotExists("temp");
 
-Shell.copyFile("fabricare/src.osdep.nt.env_nt.c","source/src/osdep/nt/env_nt.c");
-Shell.copyFile("fabricare/src.osdep.nt.yunchan.c","source/src/osdep/nt/yunchan.c");
+Shell.copyFile("fabricare/source/src.osdep.nt.env_nt.c","source/src/osdep/nt/env_nt.c");
+Shell.copyFile("fabricare/source/src.osdep.nt.yunchan.c","source/src/osdep/nt/yunchan.c");
 
 runInPath("source",function(){
 	exitIf(Shell.system("nmake /f makefile.w2k"));
