@@ -4,6 +4,9 @@
 		"type" : "xyo-cpp",
 		"SPDX-License-Identifier": "Apache-2.0",
 		"sourceLink" : "https://www.mirrorservice.org/sites/ftp.cac.washington.edu/imap/",
-		"version" : "2007f"
+		"version" : "2007f",
+		"hasRelease" : true,
+		"noVersion" : true,
+		"githubRelease" : true
 	}
 }
