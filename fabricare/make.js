@@ -42,5 +42,5 @@ runInPath("source",function(){
 	exitIf(Shell.system("nmake /f makefile.w2k clean"));
 });
 
-Shell.filePutContents("temp/build.flag", "done");
+Shell.filePutContents("temp/build.done.flag", "done");
 
