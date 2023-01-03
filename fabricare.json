@@ -1,13 +1,18 @@
 {
-	"project": {
-		"name" : "imap",
+	"solution": {
+		"name" : "vendor-imap",
 		"type" : "xyo-cpp",
-		"SPDX-License-Identifier": "Apache-2.0",
-		"sourceLink" : "https://www.mirrorservice.org/sites/ftp.cac.washington.edu/imap/",
-		"version" : "2007f",
-		"hasRelease" : true,
-		"noVersion" : true,
-		"githubRelease" : true,
-		"githubRepository" : "vendor-imap"
+		"projects": [
+			{
+				"name" : "imap",
+				"SPDX-License-Identifier": "Apache-2.0",
+				"sourceLink" : "https://www.mirrorservice.org/sites/ftp.cac.washington.edu/imap/",
+				"version" : "2007f",
+				"noVersion" : true
+			}
+		],
+		"releaseName" : "imap",
+		"hasGithub" : true
 	}
 }
+
