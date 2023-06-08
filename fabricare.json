@@ -11,8 +11,7 @@
 				"noVersion" : true
 			}
 		],
-		"releaseName" : "imap",
-		"hasGithub" : true
+		"releaseName" : "imap"
 	}
 }
 
