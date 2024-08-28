@@ -30,7 +30,6 @@ runInPath("source",function(){
 });
 
 Shell.copyFile("source/c-client/cclient.lib","output/lib/cclient.lib");
-Shell.copyFile("source/c-client/cclient.lib","output/lib/cclient.static.lib");
 Shell.copyFile("source/imapd/imapd.exe","output/bin/imapd.exe");
 Shell.copyFile("source/ipopd/ipop2d.exe","output/bin/ipop2d.exe");
 Shell.copyFile("source/ipopd/ipop3d.exe","output/bin/ipop3d.exe");
