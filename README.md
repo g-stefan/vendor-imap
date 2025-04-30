@@ -4,7 +4,7 @@ Build scripts for compiling [imap](https://www.mirrorservice.org/sites/ftp.cac.w
 
 ## License
 
-Copyright (c) 2021-2024 Grigore Stefan
+Copyright (c) 2021-2025 Grigore Stefan
 Licensed under the [MIT](LICENSE) license.
 
 **This is a compilation of different works.**
