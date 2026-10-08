@@ -1,5 +1,6 @@
 {
 	"solution": {
+		"namespace" : "xyo",
 		"name" : "vendor-imap",
 		"type" : "xyo-cpp",
 		"projects": [
