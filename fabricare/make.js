@@ -37,9 +37,5 @@ Shell.copyFile("source/mailutil/mailutil.exe","output/bin/mailutil.exe");
 Shell.mkdirRecursivelyIfNotExists("output/include/c-client");
 Shell.copyFilesToDirectory("source/c-client/*.h","output/include/c-client");
 
-runInPath("source",function(){
-	exitIf(Shell.system("nmake /f makefile.w2k clean"));
-});
-
 Shell.filePutContents("temp/build.done.flag", "done");
 
